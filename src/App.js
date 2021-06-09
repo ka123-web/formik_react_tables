@@ -22,6 +22,7 @@ import EnrollmentForm from './Components/EnrollmentForm';
 import {theme,ChakraProvider} from '@chakra-ui/react'
 import BasicTable from './Components/BasicTable';
 import SortingTable from './Components/SortingTable';
+import FilteringTable from './Components/FilteringTable';
 
 Modal.setAppElement('#root')
 function App() {
@@ -39,7 +40,8 @@ function App() {
         <LoginForm/>
     </ChakraProvider> */}
     <div>
-      <SortingTable/>
+      <FilteringTable/>
+      {/* <SortingTable/> */}
       {/* <BasicTable/> */}
     {/* <EnrollmentForm/> */}
       {/* <YoutubeForm/> */}
