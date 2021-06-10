@@ -23,6 +23,8 @@ import {theme,ChakraProvider} from '@chakra-ui/react'
 import BasicTable from './Components/BasicTable';
 import SortingTable from './Components/SortingTable';
 import FilteringTable from './Components/FilteringTable';
+import PaginationTable from './Components/PaginationTable';
+import { RowSelection } from './Components/RowSelection';
 
 Modal.setAppElement('#root')
 function App() {
@@ -40,7 +42,9 @@ function App() {
         <LoginForm/>
     </ChakraProvider> */}
     <div>
-      <FilteringTable/>
+      <RowSelection/>
+      {/* <PaginationTable/> */}
+      {/* <FilteringTable/> */}
       {/* <SortingTable/> */}
       {/* <BasicTable/> */}
     {/* <EnrollmentForm/> */}
